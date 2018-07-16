@@ -57,6 +57,7 @@ class SelectSizesDemo extends React.Component {
         <br />
         <Select
           mode="multiple"
+          maxTagCount=5
           size={size}
           placeholder="Please select"
           defaultValue={['a10', 'c12']}
